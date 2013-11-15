@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns = "http://www.w3.org/ns/widgets"
-    xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.phonegap.benjaxqr"
-    version   = "2.5.0">
+<widget xmlns 		= "http://www.w3.org/ns/widgets"
+		xmlns:gap 	= "http://phonegap.com/ns/1.0"
+		id        	= "com.phonegap.benjaxqr"
+		versionCode = "10"
+		version   	= "2.5.0">
 	
 	<name>Mobi Cure</name>
-	<description> Mobi Cure </description>
-	<author href="http://www.mobicure.com.br" email="contato@mobicure.com.br">MobiCure</author>
+	
+	<description> 
+		Mobi Cure 
+	</description>
+	
+	<author href="http://www.mobicure.com.br" email="contato@mobicure.com.br">MobiCure
+	</author>
 
-	<preference name="orientation" value="portrait" />
-	<preference name="webviewbounce" value="false" />
-	<preference name="target-device" value="universal" />
-	<preference name="fullscreen" value="false" />
+	
 	
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>
